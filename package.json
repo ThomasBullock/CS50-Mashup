@@ -1,0 +1,26 @@
+{
+  "name": "cs50-mashup",
+  "version": "1.0.0",
+  "description": "CS50 Mashup project done with PHP backend instead of Python",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config=webpack.dev.js",
+    "build": "webpack --config=webpack.dev.js"
+  },
+  "keywords": [
+    "PHP"
+  ],
+  "author": "Thomas Bullock",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}

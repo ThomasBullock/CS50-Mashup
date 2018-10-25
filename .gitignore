@@ -1,0 +1,6 @@
+*.DS_Store
+node_modules/
+/vendor
+
+config.php
+config_prod.php

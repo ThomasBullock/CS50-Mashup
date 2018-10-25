@@ -1,0 +1,38 @@
+
+
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+
+
+body {
+    background: #f1f1f1;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #339933;
+}
+
+.footer {
+    background: #222222;
+    color: #f1f1f1;
+}
+
+#map-canvas {
+    height: 100%;
+}

@@ -1,0 +1,9 @@
+{
+    "macros": {
+        "cursorUp3x": [
+            "cursorUp",
+            "cursorUp",
+            "cursorUp"
+        ]
+    }
+}

@@ -1,0 +1,239 @@
+
+
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #f1f1f1;
+}
+
+section {
+    min-height: 600px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+.footer {
+    height: 70px;
+    background: #222222;
+    color: #f1f1f1;
+    padding: 1.5em;
+}
+
+.footer a {
+    color: #BBB;
+    margin-right: 15px;
+}
+
+.footer a:hover {
+    color: turquoise;
+}
+/* .footer i.fab {
+    margin-right: 5px;
+    width: 15px;
+} */
+
+
+
+/* HOME PAGE */
+
+section.viz {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#statesvg {
+    width: 1000px;
+    height: calc(100vh - 70px);
+}
+
+.states :hover {
+    fill: turquoise;
+}
+
+.prompt {
+    position: absolute;
+    bottom: 40%;
+}
+
+
+/* MAP PAGE */
+
+
+section.map {
+    padding: 0;
+    position: relative;
+    height: calc(100vh - 70px);
+}
+
+section.map svg {
+    background-color: pink;
+}
+
+#map-canvas {
+    height: 100%;
+}
+
+/* UI Panel */
+
+.ui-panel {
+    transition: opacity 1s;
+    width: 300px;
+    max-width: 300px;
+    position: absolute;
+    top: 4rem;
+    left: .5rem;
+    min-height: 16rem;    
+}
+
+.input[name='geo'] {
+    width: 260px;
+}
+
+
+.button.is-fullwidth {
+    min-width: 260px;
+    justify-content: flex-start;
+}
+
+.button.is-fullwidth:hover {
+    color: turquoise;
+    border: solid 1px turquoise;
+}
+
+.nav-home {
+    position: absolute;
+    top: 4rem;
+    right: .5rem;
+}
+
+.cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #BBB;
+    align-items: stretch;
+}
+
+.list__city {
+    background: #444;
+    border-radius: 4px;
+    padding: .5rem;
+}
+
+.search__loader {
+    margin: 0 auto;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+/* INFO WINDOW */
+
+.infowindow {
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.infowindow > hr {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.infowindow__header {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+}
+
+.infowindow__flag {
+    flex: 1 1 22.5%;
+}
+
+.infowindow__details {
+    flex: 1 1 74.5%;
+    margin-left: 3%
+}
+
+.articles {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+}
+
+.articles__heading {
+    margin-top: -5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.articles__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles__list-item {
+    padding: .25rem 0;
+    border-bottom: #666;
+}
+
+/* ABOUT PAGE */
+
+section.about {
+    height: calc(100vh - 70px); 
+}
+
+section.about article {
+    transition: opacity 1s;
+    width: 60%;
+    margin: 0 auto;
+}
+
+ul.tech-list {
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.tech-list li {
+    list-style-type: disc!important;
+    display: block; 
+}
+
+ul.tech-list li {
+    list-style-type: circle!important;
+}
+
+.message-body a:not(.button):not(.tag).github-link {
+    text-decoration: none !important;
+    margin-left: 5px;
+}
+
+.message-body a:not(.button):not(.tag).github-link:hover {
+    color: turquoise;
+}
