@@ -278,7 +278,7 @@ function initDataVis() {
             .attr("d", path)
             .attr("id", (d) => d.id)
             .on('click', function(e) {
-                window.location.href = `http://localhost:7878/map?id=${this.id}`
+                window.location.href = `http://mashup.tbullock.net/map?id=${this.id}`
             })
 
     })
